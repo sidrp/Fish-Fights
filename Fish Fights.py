@@ -98,7 +98,7 @@ scoreText = scoreFont.render("Score: "+str(score), 1, (255, 255, 255))
 playButtonPic = pygame.image.load("assets/BtnPlayIcon.png")
 playButtonX = game_width/2 - playButtonPic.get_width()/2
 playButtonY = game_height/2 - playButtonPic.get_height()/2 + 40
-titlePic = pygame.image.load("assets/title.png")
+titlePic = pygame.image.load("assets/Title.png")
 titleX = game_width/2 - titlePic.get_width()/2
 titleY = playButtonY - 150
  
