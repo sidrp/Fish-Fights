@@ -139,8 +139,8 @@ while running:
     if keys[pygame.K_w]:
         player_y -= playerSpeed
     # Get Bigger
-    if keys[pygame.K_SPACE]:
-        playerSize += 2
+    #if keys[pygame.K_SPACE]:
+    #    playerSize += 2
 
     # Stop the player from leaving the screen
     if player_x < 0:
